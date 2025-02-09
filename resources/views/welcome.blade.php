@@ -38,6 +38,7 @@
             margin-bottom: 5px;
         }
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -111,6 +112,15 @@
                 <li>Java SE Fundamentals, Oracle Academy</li>
                 <li>Programación PL/SQL Oracle 11g, Oracle Academy</li>
             </ul>
+        </div>
+
+        <div class="mt-6 flex justify-center">
+            <a
+                href="/test-db"
+                class="rounded-md bg-[#FF2D20] px-4 py-2 text-white transition hover:bg-[#FF2D20]/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF2D20] focus-visible:ring-offset-2"
+            >
+                Test DB Connection
+            </a>
         </div>
     </div>
 </body>

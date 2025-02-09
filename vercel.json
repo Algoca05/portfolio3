@@ -32,5 +32,10 @@
         "DB_DATABASE": "portfolio",
         "DB_USERNAME": "alejandrogomcap",
         "DB_PASSWORD": "Orotava05"
+    },
+    "build": {
+        "env": {
+            "PHP_EXTENSIONS": "curl"
+        }
     }
 }

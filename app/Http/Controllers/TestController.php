@@ -11,7 +11,7 @@ class TestController extends Controller
     public function index()
     {
         try {
-            echo 'hola';
+            echo 'holas';
             Log::info('TestController@index: Start');
             
             // Verificar la conexión a la base de datos
